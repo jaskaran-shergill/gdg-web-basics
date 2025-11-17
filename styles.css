@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f2f2f2;
+    color: #1f2933;
+}
+
+header {
+    text-align: center;
+    background-color: white;
+    padding: 40px 20px;
+    border-bottom: 1px solid black;
+}
+
+header h1 {
+    font-size: 42px;
+}
+
+header p {
+    margin-bottom: 32px;
+    color: #526052;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+nav a {
+    text-decoration: none;
+    color: #1d4ed8;
+    border: 1px solid #1d4ed8;
+    padding: 8px 16px;
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+nav a:hover {
+    background-color: #1d4ed8;
+    color: white;
+}
+
+main {
+    width: 50%;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+section {
+    background-color: white;
+    border: 1px solid #d2dae2;
+    border-radius: 8px;
+    padding: 24px;
+    margin-bottom: 24px;
+}
+
+section h2 {
+    margin-top: 0;
+    margin-bottom: 16px;
+    font-size: 24px;
+    color: #1d4ed8;
+}
+
+section p {
+    margin-bottom: 16px;
+}
+
+#skills ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+#skills li {
+    background-color: #e0ecff;
+    color: #1d4ed8;
+    padding: 10px 16px;
+    border-radius: 4px;
+}
+
+.project {
+    border-top: 1px solid #d2dae2;
+    padding-top: 16px;
+    margin-top: 16px;
+}
+
+.project:first-of-type {
+    border: none;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #cbd2d9;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    font-size: 15px;
+    font-family: inherit;
+}
+
+button {
+    background-color: #1d4ed8;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #285be9;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #52606d;
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="./styles.css" />
+        
+    </head>
+    <body>
+
+        <header>
+            <h1>Jaskaran Shergill</h1>
+            <p>Beginner Web Developer</p>
+            <nav>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contacts">Contacts</a>
+            </nav>
+            
+        </header>
+
+        <main>
+            <section id="about">
+                <h2>About Me</h2>
+                <p>Hi, my name is Jaskaran Shergill. I love programming in HTML.</p>
+                <p>This is my portfolio page. Thank you for visiting!</p>
+            </section>
+
+            <section id="skills">
+                <h2>
+                    Skills
+                </h2>
+                <p>Here are three topics I am focusing on right now.</p>
+                <ul>
+                    <li>HTML - building page structures</li>
+                    <li>CSS - adding colours and spacing</li>
+                    <li>JavaScript - making things interactive</li>
+                </ul>
+            </section>
+
+            <section id="projects">
+                <h2>Projects</h2>
+
+                <article class="project">
+                    <h3>Simple Homepage</h3>
+                    <p>A one page site with a header, main area, and footer.</p>
+                </article>
+
+                <article class="project">
+                    <h3>Daily checklist</h3>
+                    <p>A small page with a list of tasks.</p>
+                </article>
+
+                <article class="project">
+                    <h3>Colour Picker</h3>
+                    <p>A basic JavaScript project where a button changes the background colour of a box.</p>
+                </article>
+
+            </section>
+
+            <section id="contact">
+                <h2>Contact</h2>
+                <p>Want to say hello? Fill out the form and click send.</p>
+                <form id="contactForm">
+                    <label for="name">Name</label>
+                    <input id="name" type="text" placeholder="Type your name..." required />
+
+                    <label for="email">Email</label>
+                    <input id="email" type="email" placeholder="you@email.com" required/>
+
+                    <label for="message">Message</label>
+                    <textarea id="message" rows="4" placeholder="What would you like to share...?" required></textarea>
+
+                    <button type="submit">Send Message</button>
+                </form>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2025 Jaskaran Shergill</p>
+        </footer>
+
+        <script href="./script.js"></script>
+    </body>
+</html>
